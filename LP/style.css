@@ -1,0 +1,56 @@
+.body{
+    width: 90%;
+    justify-content: center;
+    max-width: 1070px;
+}
+
+.MainHeader{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    width: 90%;
+    justify-content: center;
+    max-width: 1240px;
+}
+
+.MainHeader__container{
+    width: 100%;
+    background-color: #4d4c4c;
+    opacity: 0.9;
+    padding: 25px 0px;
+    position: fixed;
+}
+
+.MainHeader__inner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    /* width: 60%; */
+}
+
+.MainHeader__inner-right{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    font-size: 24px;
+}
+
+.MainHeader__inner-right > nav:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 0.3s;
+    transform: scale(1.3);
+}
+
+.top__container-pic{
+    height: 75vh;
+    background-size: cover;
+    background-image: url(../Pics/VeniceMain.jpeg);
+}
+
+.history{
+    width: 90%;
+    justify-content: center;
+    max-width: 1240px;
+}
