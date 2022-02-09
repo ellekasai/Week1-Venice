@@ -5,15 +5,20 @@
 }
 
 .MainHeader{
-    background-color: #535353;
-    opacity: 0.5;
-    padding: 24px 0px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    width: 90%;
+    justify-content: center;
+    max-width: 1070px;
 }
 
 .MainHeader__container{
-     width: 90%;
-    justify-content: center;
-    max-width: 1070px;
+    width: 100%;
+    background-color: #4d4c4c;
+    opacity: 0.5;
+    padding: 25px 0px;
+    position: fixed;
 }
 
 .MainHeader__inner{
@@ -28,4 +33,12 @@
     display: flex;
     justify-content: space-between;
     width: 30%;
+}
+
+
+
+.top__container-pic{
+    height: 100vh;
+    background-size: cover;
+    background-image: url(../Pics/VeniceMain.jpeg);
 }
