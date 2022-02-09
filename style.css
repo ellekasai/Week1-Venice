@@ -1,0 +1,10 @@
+.body{
+    width: 90%;
+    justify-content: center;
+    max-width: 1070px;
+}
+
+.MainHeader__inner{
+    
+    background-color: #535353;
+}
