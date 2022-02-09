@@ -1,0 +1,32 @@
+.body{
+    width: 90%;
+    justify-content: center;
+    max-width: 1070px;
+}
+
+.MainHeader{
+    background-color: #535353;
+    opacity: 0.5;
+    padding: 24px 0px;
+}
+
+.MainHeader__container{
+     width: 90%;
+    justify-content: center;
+    max-width: 1070px;
+}
+
+.MainHeader__inner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    /* width: 60%; */
+}
+
+.MainHeader__inner-right{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+ 
