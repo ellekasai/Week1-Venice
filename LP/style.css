@@ -54,7 +54,7 @@
 .MainHeader__inner-right > ul > li > nav:hover{
     cursor: pointer;
     opacity: 0.8;
-    transition: all 0.3s;
+    transition: scale 0.3s;
     transform: scale(1.3);
 }
 
