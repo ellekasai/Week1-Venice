@@ -1,6 +1,6 @@
 body{
     font-family: 'Bebas Neue', cursive;
-    max-width: 1440px;
+    /* max-width: 1440px; */
 }
 
 body > span{
@@ -30,7 +30,6 @@ body > span{
     justify-content: space-around;
     align-items: center;
     color: #fff;
-    
 }
 
 .MainHeader__inner-left > h1{
