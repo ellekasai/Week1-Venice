@@ -1,8 +1,10 @@
-.body{
-    width: 90%;
-    justify-content: center;
-    max-width: 1070px;
+body{
     font-family: 'Bebas Neue', cursive;
+    max-width: 1440px;
+}
+
+body > span{
+    font-size: 2em;
 }
 
 .MainHeader{
@@ -15,6 +17,7 @@
 }
 
 .MainHeader__container{
+    z-index: 99;
     width: 100%;
     background-color: #4d4c4c;
     /* opacity: 0.9; */
@@ -27,7 +30,7 @@
     justify-content: space-around;
     align-items: center;
     color: #fff;
-    /* width: 60%; */
+    
 }
 
 .MainHeader__inner-left > h1{
@@ -50,7 +53,6 @@
 
 .MainHeader__inner-right > nav{
     text-decoration: none;
-    /* background: transparent; */
 }
 
 .MainHeader__inner-right > ul > li > nav:hover{
@@ -86,13 +88,79 @@
     z-index: 2;
     position: absolute;
     top: 39%;
-    left: 23%;
+    left: 26%;
     color: white;
     text-shadow: 4px 5px black;
 }
 
 .history{
     width: 90%;
+    margin: 0 auto;
     justify-content: center;
     max-width: 1240px;
+    padding: 2em;
+}
+
+.history__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60vh
+}
+
+.history__container-left{
+    text-align: center;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.history__pic{
+    text-align: center;
+}
+
+.history__pic > img{
+    width: 70%;
+    height: 40%;
+}
+
+.history__container-right{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3em
+}
+
+.history__sentence{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.history__sentence > h2{
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.history__sentence > span{
+    font-weight: 200;
+    font-size: 1.2em;
+}
+
+.history__container-right > .btn{
+    cursor: pointer;
+    padding: 1em 0.5em;
+    border: solid 1px black;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.history__container-right > .btn:hover{
+    color: white;
+    background-color: black;
+    transition: all 0.3s;
+    transform: scale(1.2);
 }
