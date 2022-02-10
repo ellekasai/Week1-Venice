@@ -2,6 +2,7 @@
     width: 90%;
     justify-content: center;
     max-width: 1070px;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .MainHeader{
@@ -31,6 +32,7 @@
 
 .MainHeader__inner-left > h1{
     letter-spacing: 1px;
+    font-family: 'IBM Plex Serif', serif;
 }
 
 .MainHeader__inner-right{
@@ -56,6 +58,20 @@
     opacity: 0.8;
     transition: scale 0.3s;
     transform: scale(1.3);
+}
+
+@keyframes fadeInTitle {
+    0%{
+        opacity: 0%;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+.top__container-venice{
+    animation: fadeInTitle 3.0s cubic-bezier(1, -0.38, 0, 0.45) 1;;
 }
 
 .top__container-pic{
