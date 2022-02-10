@@ -93,7 +93,7 @@ body > span{
     text-shadow: 4px 5px black;
 }
 
-.history, .food{
+.history, .food, .festival{
     width: 90%;
     margin: 0 auto;
     justify-content: center;
@@ -101,32 +101,32 @@ body > span{
     padding: 2em;
 }
 
-.history__container, .food__container{
+.history__container, .food__container, .festival__container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 60vh;
     box-shadow: 0 0 10px rgba(0, 0, 0, .24);
 }
 
-.history__container-left, .food__container-right{
+.history__container-left, .food__container-right, .festival__container-left{
     text-align: center;
-    width: 70%;
+    width: 50%;
     height: 100%;
     display: flex;
     align-items: center;
 }
 
-.history__pic, .food__pic{
+.history__pic, .food__pic, .festival__pic{
     text-align: center;
 }
 
-.history__pic > img, .food__pic > img{
-    width: 70%;
+.history__pic > img, .food__pic > img, .festival__pic > img{
+    width: 85%;
     height: 40%;
 }
 
-.history__container-right, .food__container-left{
+.history__container-right, .food__container-left, .festival__container-right{
     width: 50%;
     text-align: center;
     display: flex;
@@ -134,23 +134,24 @@ body > span{
     gap: 3em
 }
 
-.history__sentence, .food__sentence{
+.history__sentence, .food__sentence, .festival__sentence{
     display: flex;
     flex-direction: column;
     gap: 1em;
 }
 
-.history__sentence > h2, .food__sentence > h2{
+.history__sentence > h2, .food__sentence > h2, .festival__sentence > h2{
     font-size: 4em;
     font-weight: 700;
 }
 
-.history__sentence > span, .food__sentence > span{
+.history__sentence > span, .food__sentence > span, .festival__sentence > span{
     font-weight: 200;
     font-size: 1.2em;
+    width: 90%;
 }
 
-.history__container-right > .btn, .food__container-left > .btn{
+.history__container-right > .btn, .food__container-left > .btn, .festival__container-right > .btn{
     cursor: pointer;
     padding: 1em 0.5em;
     border: solid 1px black;
@@ -159,7 +160,7 @@ body > span{
     border-radius: 10px;
 }
 
-.history__container-right > .btn:hover, .food__container-left > .btn:hover{
+.history__container-right > .btn:hover, .food__container-left > .btn:hover, .festival__container-right > .btn:hover{
     color: white;
     background-color: black;
     transition: all 0.3s;
