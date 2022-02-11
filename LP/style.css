@@ -23,7 +23,6 @@ body > span{
     z-index: 99;
     width: 100%;
     background-color: #4d4c4c;
-    /* opacity: 0.9; */
     padding: 25px 0px;
     position: fixed;
 }
@@ -57,7 +56,7 @@ body > span{
     text-decoration: none;
 }
 
-.MainHeader__inner-right > ul > li > nav:hover{
+.MainHeader__inner-right > ul > li:hover{
     cursor: pointer;
     opacity: 0.8;
     transition: scale 0.3s;
@@ -109,6 +108,50 @@ body > span{
     justify-content: space-around;
     height: 60vh;
     box-shadow: 0 0 10px rgba(0, 0, 0, .24);
+}
+
+.history__container, .festival__container{
+    animation: slideInFromLeft 4.0s 1;
+}
+
+.food__container{
+    animation: slideInFromRight 4.0s 1;
+}
+
+.history__container{
+    animation-delay: 0.5s;
+}
+
+.food__container{
+    animation-delay: 1.5s;
+}
+
+.festival__container{
+    animation-delay: 2.5s;
+}
+
+@keyframes slideInFromLeft {
+    0%{
+        opacity: 0;
+        transform: translateX(-200px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromRight {
+    0%{
+        opacity: 0;
+        transform: translateX(200px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 .history__container-left, .food__container-right, .festival__container-left{
@@ -227,3 +270,4 @@ body > span{
     gap: 4em;
     text-align: center;
 }
+
