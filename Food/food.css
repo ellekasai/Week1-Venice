@@ -168,3 +168,54 @@ body > span{
     transition: all 0.3s;
     transform: scale(1.2);
 }
+
+.mainFooter{
+    background-color: #4d4c4c;
+    z-index: 1;
+    background-size: cover;
+}
+
+.footer__inner{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-top: 2em;
+}
+
+.footer__top{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
+
+
+
+.footer__icon > ul > li > a{
+    cursor: pointer;
+    color: #fff;
+}
+
+.footer__bottom{
+    border-top: solid 1px #fff;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    padding: 1em;
+}
+
+.footer__link{
+    display: flex;
+    align-items: center;
+}
+
+.footer__link > ul > li > a{
+    font-size: 2em;
+    color: #fff;
+}
+
+.footer__link > ul, .footer__icon > ul{
+    display: flex;
+    gap: 4em;
+    text-align: center;
+}
