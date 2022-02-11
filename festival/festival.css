@@ -1,3 +1,6 @@
+html{
+    background-color:#00d0ff05;
+}
 .body{
     width: 90%;
     justify-content: center;
@@ -48,11 +51,64 @@
     background-size: cover;
     background-image: url(./venice_fest.jpg);
 }
+.main_content{
+    font-family: 'IBM Plex Serif', serif;
+     font-weight: 500;
+     font-size: 32px;
+}
 .text1_container{
      justify-content: center;
-     font-family: 'IBM Plex Serif', serif;
-     font-weight: 400;
-     font-size: 30px;
-     width: 600px;
+     text-align: center;
+     width: 750px;
+     margin-left: 60px;
+     margin-top: 120px;
+     margin-bottom: 50px;
+     border:solid 5px grey;
+     border-radius: 5px;
+     box-shadow:3px 3px 3px grey; 
+}
+.venice_1{
+    align-items: center;
+    width: 600px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px grey;
+    border: solid 3px grey;
 }
 
+.venice_1container{
+    margin-top: 35px;
+    margin-right: 60px;
+    margin-left: 60px;
+
+}
+.first_part{
+    display: flex;
+    justify-content: space-around;
+}
+.second_part{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+.text2_container{
+    text-align: center;
+    width: 735px;
+    margin-top: 100px;
+    margin-right: 60px;
+    margin-bottom: 100px;
+    border:solid 5px grey;
+    border-radius: 5px;
+    box-shadow:3px 3px 3px grey; 
+}
+.venice2_container{
+   margin-right: -100px;
+}
+.venice_2{
+    align-items: center;
+    width: 350px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px grey;
+    border: solid 3px grey;
+}
