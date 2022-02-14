@@ -21,19 +21,18 @@ body{
     position: fixed;
 }
 
-.hero {
-    background-image: url(../Pics/repubblica-di-venezia.jpg);
+/* .hero {
+    background-image: url(../images/img_history_widged-lion.jpg);
     background-size: cover;
     background-position: center;
     padding: 100px;
-}
-
+} */
+/* 
 .pic2 {
-    /* background-image: url(../1920px-Winged_lion_West_facade_St_Marks_Basilica.jpg);
-    background-size: cover;
+    background-image: url(../images/img_history_widged-lion.jpg);    background-size: cover;
     background-position: center;
-    padding: 10px; */
-}
+    padding: 10px;
+} */
 
 .MainHeader__inner{
     display: flex;
@@ -79,11 +78,11 @@ body{
 }
 
 .history__pic.pic__1 {
-    background-image: url(../Pics/repubblica-di-venezia.jpg);
+    background-image: url(../images/img_history_republic.jpg);
 }
 
 .history__pic.pic__2 {
-    background-image: url(../Pics/bg.jpg);
+    background-image: url(../images/img_history_widged-lion.jpg);
 }
 
 .history__sentence {

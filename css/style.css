@@ -83,7 +83,7 @@ body > span{
 .top__container-pic{
     height: 75vh;
     background-size: cover;
-    background-image: url(../Pics/VeniceMain.jpeg);
+    background-image: url(../images/bg_home_top.jpeg);
 }
 
 .top__container-venice > span{

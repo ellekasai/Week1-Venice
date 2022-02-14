@@ -50,7 +50,7 @@ html{
 .top__container-pic{
     height: 80vh;
     background-size: cover;
-    background-image: url(./venice_fest.jpg);
+    background-image: url(../images/bg_festival_top.jpg);
 }
 .main_content{
     font-family: 'IBM Plex Serif', serif;
