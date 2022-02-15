@@ -1,0 +1,263 @@
+/* ---------------------------------------------------
+    SHARED STYLES
+--------------------------------------------------- */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 16px;
+    font-family: "IBM Plex Serif", serif;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    font-family: "Bebas Neue", cursive;
+    line-height: 1.2;
+}
+
+h1 {
+    color: #fff;
+    font-size: 150px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.85);
+    animation: fadeInTitle 2.0s cubic-bezier(1, -0.38, 0, 0.45) 1;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+p {
+    margin: 20px 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+hr {
+    border-color:rgba(0, 0, 0, .24);
+}
+
+/* ----------- SUB CLASSES ----------- */
+
+@keyframes slideInFromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-200px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        opacity: 0;
+        transform: translateX(200px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.slide-from-left {
+    animation: slideInFromLeft 4.0s 1;
+}
+
+.slide-from-right {
+    animation: slideInFromRight 4.0s 1;
+}
+
+.shared-container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.button {
+    display: inline-block;
+    width: 250px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 15px 20px;
+    font-family: "Bebas Neue", cursive;
+    font-size: 20px;
+    text-align: center;
+    transition: all ease-in-out 0.15s;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #000;
+    color: #fff;
+}
+
+/* ----------- HEADER ----------- */
+
+.header {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    padding: 15px 0px;
+    background-color: rgba(77, 76, 76, 0.7);
+    font-size: 3.5em;
+    font-weight: 700;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.header-inner-left {
+    width: 70%;
+}
+
+.header-inner-left a {
+    font-family: "IBM Plex Serif", serif;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+}
+
+.header-inner-right {
+    width: 30%;
+}
+
+.header-inner-right ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-inner-right a {
+    display: block;
+    font-family: "Bebas Neue", cursive;
+    font-size: 24px;
+    transition: all ease-in-out 0.3s;
+}
+
+.header-inner-right a:hover {
+    transform: scale(1.2);
+}
+
+/* ----------- MAIN ----------- */
+
+@keyframes fadeInTitle {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.main-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    background-size: cover;
+}
+
+.main-content {
+    padding: 80px 0;
+}
+
+.main-content-card {
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+    padding: 40px 20px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .24);
+}
+
+.main-content-card.no-shadow {
+    box-shadow: none;
+}
+
+.main-content-card-img,
+.main-content-card-description {
+    margin: 0 20px;
+}
+
+.main-content-card-img {
+    width: 45%;
+}
+
+.main-content-card-description {
+    width: 55%;
+}
+
+.main-content-card-description .btn {
+    margin-bottom: 30px;
+}
+
+.main-content-card-description ul {
+    margin-top: 20px;
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.main-content-card-description li + li {
+    margin-top: 10px;
+}
+
+/* ----------- FOOTER ----------- */
+
+.footer {
+    background-color: #4d4c4c;
+    color: #fff;
+    font-family: "Bebas Neue", cursive;
+    text-align: center;
+}
+
+.footer .shared-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-top,
+.footer-bottom {
+    padding: 20px 0;
+}
+
+.footer-top + .footer-bottom {
+    border-top: solid 1px #fff;
+}
+
+.footer-top-link {
+    width: 50%;
+}
+
+.footer-top-link ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-top-link a {
+    margin: 0 10px;
+    padding: 5px 10px;
+    font-size: 32px;
+    opacity: 0.7;
+}
+
+.footer-top-link a:hover {
+    opacity: 1;
+}
+
+.footer-bottom small {
+    font-size: 16px;
+}
