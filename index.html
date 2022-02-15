@@ -4,120 +4,118 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Venice</title>
-    <script src="https://kit.fontawesome.com/2eade893e9.js" crossorigin="anonymous"></script>
+    <title>Welcome to Venice - Home</title>
+
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+
+    <!-- Google Fonts: Bebas Neue, IBM Plex Serif -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/2eade893e9.js" crossorigin="anonymous"></script>
+
+    <!-- Website Styles -->
+    <link rel="stylesheet" href="css/style_shared.css">
+    <link rel="stylesheet" href="css/style_home.css">
 </head>
 <body>
-    <div class="global__container">
-        <header class="MainHeader">
-            <div class="MainHeader__container">
-                <div class="MainHeader__inner">
-                    <div class="MainHeader__inner-left">
-                        <h1>V E N I C E</h1>
-                    </div>
-                    <div class="MainHeader__inner-right">
+    <header class="header">
+        <div class="shared-container">
+            <div class="header-inner">
+                <div class="header-inner-left">
+                    <a href="index.html">Venice</a>
+                </div>
+                <div class="header-inner-right">
+                    <nav>
                         <ul>
-                            <li><a href="#section1">History</a></li>
-                            <li><a href="#section2">Food</a></li>
-                            <li><a href="#section3">Festival</a></li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#history">History</a></li>
+                            <li><a href="#food">Food</a></li>
+                            <li><a href="#festival">Festival</a></li>
                         </ul>
-                    </div>
+                    </nav>
                 </div>
             </div>
-        </header>
-        <main >
-            <section>
-                <div class="top">
-                    <div class="top__container">
-                        <div class="top__container-pic">
-                        </div>
-                        <div class="top__container-venice">
-                            <span>Welcome to Venice</span>
-                        </div>
-                    </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="main-hero main-hero-home">
+            <h1>Welcome to Venice</>
+        </section>
+        <section class="main-content shared-container">
+            <div class="main-content-card home-history slide-from-left" id="history">
+                <div class="main-content-card-img">
+                    <img src="images/img_home_history.jpeg" alt="history">
                 </div>
-            </section>
-            <section>
-                <div class="history" id="section1">
-                    <div class="history__container">
-                        <div class="history__container-left">
-                            <div class="history__pic">
-                                <img src="images/img_home_hisotry.jpeg" alt="">
-                            </div>
-                        </div>
-                        <div class="history__container-right">
-                            <div class="history__sentence">
-                                <h2>History</h2>
-                                <span>Venice is known as a "City of Canal". 124 small islands consist the city. <br /> It was formed in the 6th century C.E. so there are many historical buildings. Venice itself and lagoon are the World Heritage Site. </span>
-                            </div>
-                            <span class="btn"><a href="history.html">Go to History Page</a></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="food" id="section2">
-                    <div class="food__container">
-                        <div class="food__container-left">
-                            <div class="food__sentence">
-                                <h2>Food</h2>
-                                <span>Venice is literally built on the water, so its seafood is the highest quality. <Br /> Many seafood disses in Venice are influenced by Middle Eastern cuisine.</span>
-                            </div>
-                            <span class="btn"><a href="food.html">Go to Food Page</a></span>
-                        </div>
-                        <div class="food__container-right">
-                            <div class="food__pic">
-                                <img src="images/img_home_food.jpeg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="festival" id="section3">
-                    <div class="festival__container">
-                        <div class="festival__container-left">
-                            <div class="festival__pic">
-                                <img src="images/img_home_festival.jpeg" alt="">
-                            </div>
-                        </div>
-                        <div class="festival__container-right">
-                            <div class="festival__sentence">
-                                <h2>Festival</h2>
-                                <span>City of Venice has a lot of festivals started hundreds of years ago<br />You can see some fireworks and masquerades. I bet you would be like.</span>
-                            </div>
-                            <span class="btn"><a href="festival.html">Go to Festival Page</a></span>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer class="mainFooter">
-            <div class="footer__container">
-                <div class="footer__inner">
-                    <div class="footer__top">
-                        <div class="footer__link">
-                            <ul>
-                                <li><a href="./History/index.html">History</a></li>
-                                <li><a href="./Food/food.html">Food</a></li>
-                                <li><a href="./Festival/festival.html">Festival</a></li>
-                            </ul>
-                        </div>
-                        <div class="footer__icon">
-                            <ul>
-                                <li><a class="fab fa-instagram fa-3x" href="https://www.instagram.com/veneziaunica/?hl=en" target="_blank"></a></li>
-                                <li><a class="fab fa-youtube fa-3x" href="https://www.youtube.com/c/VeneziaunicaIt/videos" target="_blank"></a></li>
-                                <li><a class="fab fa-twitter-square fa-3x" href="https://twitter.com/veneziaunica" target="_blank"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="footer__bottom">
-                        <span>Copyright &copy; 2022 CICCC WMAD Main Team5</span>
-                    </div>
+                <div class="main-content-card-description">
+                    <h2>History</h2>
+                    <p>Venice is known as a "City of Canal". 124 small islands consist the city. It was formed in the 6th century C.E. so there are many historical buildings. Venice itself and lagoon are the World Heritage Site. </p>
+                    <a href="history.html" class="button">Go to History Page</a>
                 </div>
             </div>
-        </footer>
-    </div>
+            <div class="main-content-card home-food slide-from-right" id="food">
+                <div class="main-content-card-img">
+                    <img src="images/img_home_food.jpeg" alt="food & drinks">
+                </div>
+                <div class="main-content-card-description">
+                    <h2>Food</h2>
+                    <p>Venice is literally built on the water, so its seafood is the highest quality. Many seafood disses in Venice are influenced by Middle Eastern cuisine.</p>
+                    <a href="food.html" class="button">Go to Food Page</a>
+                </div>
+            </div>
+            <div class="main-content-card home-festival slide-from-left" id="festival">
+                <div class="main-content-card-img">
+                    <img src="images/img_home_festival.jpeg" alt="festival">
+                </div>
+                <div class="main-content-card-description">
+                    <h2>Festival</h2>
+                    <p>City of Venice has a lot of festivals started hundreds of years ago. You can see some fireworks and masquerades. I bet you would be like.</p>
+                    <a href="festival.html" class="button">Go to Festival Page</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="shared-container">
+                <nav class="footer-top-link">
+                    <ul>
+                        <li><a href="history.html">History</a></li>
+                        <li><a href="food.html">Food</a></li>
+                        <li><a href="festival.html">Festival</a></li>
+                    </ul>
+                </nav>
+                <div class="footer-top-link">
+                    <ul>
+                        <li>
+                            <a href="https://www.instagram.com/veneziaunica/?hl=en" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/c/VeneziaunicaIt/videos" target="_blank">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/veneziaunica" target="_blank">
+                                <i class="fab fa-twitter-square"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="shared-container">
+                <p>
+                    <small>Copyright &copy; 2022 CICCC WMAD Main Team5</small>
+                </p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

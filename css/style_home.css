@@ -1,0 +1,19 @@
+/* ---------------------------------------------------
+    HOME
+--------------------------------------------------- */
+
+.main-hero-home {
+    background-image: url(../images/bg_home_top.jpeg);
+}
+
+.home-history {
+    animation-delay: 0.5s;
+}
+
+.home-food {
+    animation-delay: 1s;
+}
+
+.home-festival {
+    animation-delay: 1.5s;
+}
