@@ -4,6 +4,7 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 110px;
 }
 
 body {
@@ -120,7 +121,7 @@ hr {
     position: fixed;
     z-index: 99;
     width: 100%;
-    padding: 15px 0px;
+    padding: 10px 0px;
     background-color: rgba(77, 76, 76, 0.7);
     font-size: 3.5em;
     font-weight: 700;
@@ -168,7 +169,7 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 75vh;
+    height: 80vh;
     background-size: cover;
 }
 
@@ -201,10 +202,6 @@ hr {
 
 .main-content-card-description {
     width: 55%;
-}
-
-.main-content-card-description .btn {
-    margin-bottom: 30px;
 }
 
 .main-content-card-description ul {
