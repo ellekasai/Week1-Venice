@@ -21,7 +21,6 @@ h1 {
     color: #fff;
     font-size: 150px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.85);
-    animation: fadeInTitle 2.0s cubic-bezier(1, -0.38, 0, 0.45) 1;
 }
 
 h2 {
@@ -44,7 +43,17 @@ hr {
 
 /* ----------- SUB CLASSES ----------- */
 
-@keyframes slideInFromLeft {
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideFromLeft {
     0% {
         opacity: 0;
         transform: translateX(-200px);
@@ -56,7 +65,7 @@ hr {
     }
 }
 
-@keyframes slideInFromRight {
+@keyframes slideFromRight {
     0% {
         opacity: 0;
         transform: translateX(200px);
@@ -68,12 +77,16 @@ hr {
     }
 }
 
+.fade-in {
+    animation: fadeIn 2.0s cubic-bezier(1, -0.38, 0, 0.45) 1;
+}
+
 .slide-from-left {
-    animation: slideInFromLeft 4.0s 1;
+    animation: slideFromLeft 4.0s 1;
 }
 
 .slide-from-right {
-    animation: slideInFromRight 4.0s 1;
+    animation: slideFromRight 4.0s 1;
 }
 
 .shared-container {
@@ -150,16 +163,6 @@ hr {
 }
 
 /* ----------- MAIN ----------- */
-
-@keyframes fadeInTitle {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
 
 .main-hero {
     display: flex;
