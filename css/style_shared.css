@@ -90,7 +90,7 @@ hr {
     animation: slideFromRight 4.0s 1;
 }
 
-.shared-container {
+.container {
     max-width: 1240px;
     margin: 0 auto;
     padding: 0 15px;
@@ -223,7 +223,7 @@ hr {
     text-align: center;
 }
 
-.footer .shared-container {
+.footer-top-container {
     display: flex;
     align-items: center;
     justify-content: center;
